@@ -1,11 +1,11 @@
 {
-  "name": "vue-amap",
-  "version": "0.5.6",
+  "name": "vue-amap-foreign",
+  "version": "1.0.1",
   "description": "vue amap",
   "main": "./dist/index.js",
   "sideEffects": false,
   "directories": {
-    "doc": "docs"
+    "test": "test"
   },
   "scripts": {
     "dev": "node build/dev-server.js --content-base dist/",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElemeFE/vue-amap.git"
+    "url": "git+https://github.com/wangweilica/vue-amap.git"
   },
   "files": [
     "dist",
     "src"
   ],
-  "author": "elemefe",
+  "author": "running_snail",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ElemeFE/vue-amap/issues"
@@ -110,5 +110,11 @@
     "core-js": "^2.5.0",
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "keywords": [
+    "vue",
+    "amap",
+    "for",
+    "foreign"
+  ]
 }
