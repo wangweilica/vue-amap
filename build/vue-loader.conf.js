@@ -3,9 +3,9 @@ var config = require('../config')
 var isProduction = process.env.NODE_ENV === 'production' && process.env.LIB_ENV !== 'lib'
 module.exports = {
   loaders: utils.cssLoaders({
-    sourceMap: isProduction
+    sourceMap: false
       ? config.build.productionSourceMap
       : config.dev.cssSourceMap,
-    extract: isProduction
+    extract: false
   })
 }

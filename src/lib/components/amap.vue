@@ -50,7 +50,8 @@ export default {
     'mapStyle',
     'plugin',
     'features',
-    'amapManager'  // 地图管理 manager
+    'amapManager',  // 地图管理 manager
+    'gridMapForeign'
   ],
 
   beforeCreate() {
@@ -124,6 +125,10 @@ export default {
         },
         rotateEnable(flag) {
           this.setStatus({rotateEnable: flag});
+        },
+        gridMapForeign(flag) {
+          console.log('-------------------2------------------');
+          this.setStatus({gridMapForeign: flag});
         }
       }
     };
